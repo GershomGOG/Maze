@@ -1,9 +1,9 @@
 // JavaScript Document
 
-function ReplaceContentInContainer(selector, content) {
-  var nodeList = document.querySelectorAll(selector);
+function ReplaceContentInContainer(SnarF, FranS) {
+  var nodeList = document.getElementsByClassName(SnarF);
   for (var i = 0, length = nodeList.length; i < length; i++) {
-     nodeList[i].innerHTML = content;
+     nodeList[i].innerHTML = FranS;
   }
 }
 
