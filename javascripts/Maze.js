@@ -1,5 +1,15 @@
 // JavaScript Document
 
+function replaceContentInContainer(matchClass, content) {
+    var elems = document.getElementsByTagName('*'), i;
+    for (i in elems) {
+        if((' ' + elems[i].className + ' ').indexOf(' ' + matchClass + ' ')
+                > -1) {
+            elems[i].innerHTML = content;
+        }
+    }
+}
+
 
 function makeRooms()
 {
@@ -539,8 +549,8 @@ console.info('room text');
 These are the links
 */
 
-
-document.getElementsByClassName("room2link")[0].innerHTML=room2name;
+replaceContentInContainer(room2link, room2name)
+/*document.getElementsByClassName("room2link")[0].innerHTML=room2name;*/
 console.info('one link'); 
 document.getElementsByClassName("room3link")[0].innerHTML=room3name;
 document.getElementsByClassName("room4link")[0].innerHTML=room4name;
