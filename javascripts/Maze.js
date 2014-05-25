@@ -537,7 +537,7 @@ document.getElementById("room100text").innerHTML="<h1>The " + room100name + "</h
 These are the links
 */
 
-document.getElementByClassName("room1link")[0].innerHTML=room1name;
+
 document.getElementByClassName("room2link")[0].innerHTML=room2name;
 document.getElementByClassName("room3link")[0].innerHTML=room3name;
 document.getElementByClassName("room4link")[0].innerHTML=room4name;
