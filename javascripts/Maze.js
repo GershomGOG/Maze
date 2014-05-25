@@ -1,7 +1,7 @@
 // JavaScript Document
 
 function ReplaceContentInContainer(SnarF, FranS) {
-  var nodeList = document.getElementsByClassName(SnarF);
+  var nodeList = document.getElementsByClassName(SnarF);console.info(nodeList);
   for (var i = 0, length = nodeList.length; i < length; i++) {
      nodeList[i].innerHTML = FranS;
   }
