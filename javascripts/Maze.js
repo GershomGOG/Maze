@@ -319,9 +319,6 @@ var room99name=room99adj + " " + room99type;
 var room100name=room100adj + " " + room100type;
 
 
-/*
-This inserts the relevant text throughout the maze
-*/
 
 
 /*
@@ -427,9 +424,14 @@ var room97desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room98desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room99desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room100desc=rDesc[Math.floor(Math.random() * rDesc.length)];
-
+console.error('Names and such done'); 
 
 /*
+This inserts the relevant text throughout the maze
+*/
+
+
+
 document.getElementById("room1text").innerHTML="<h1>Welcome to this maze</h1>  <p>I think you should be making your way towards the " + room100name + ".</p>";
 
 document.getElementById("room2text").innerHTML="<h1>The " + room2name + "</h1>" + room2desc;
@@ -531,7 +533,7 @@ document.getElementById("room97text").innerHTML="<h1>The " + room97name + "</h1>
 document.getElementById("room98text").innerHTML="<h1>The " + room98name + "</h1>" + room98desc;
 document.getElementById("room99text").innerHTML="<h1>The " + room99name + "</h1>" + room99desc;
 document.getElementById("room100text").innerHTML="<h1>The " + room100name + "</h1>" + room100desc;
-*/
+console.error('room text filled'); 
 
 /*
 These are the links
