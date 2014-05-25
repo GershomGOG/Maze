@@ -540,7 +540,9 @@ These are the links
 */
 
 
-document.getElementByClassName("room2link")[0].innerHTML=room2name;
+document.getElementByClassName("roomZZlink")[0].innerHTML=room2name;
+console.info('one link'); 
+
 document.getElementByClassName("room3link")[0].innerHTML=room3name;
 document.getElementByClassName("room4link")[0].innerHTML=room4name;
 document.getElementByClassName("room5link")[0].innerHTML=room5name;
