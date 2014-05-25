@@ -541,6 +541,7 @@ These are the links
 
 
 document.getElementsByClassName("room2link")[0].innerHTML=room2name;
+console.info('one link'); 
 document.getElementsByClassName("room3link")[0].innerHTML=room3name;
 document.getElementsByClassName("room4link")[0].innerHTML=room4name;
 document.getElementsByClassName("room5link")[0].innerHTML=room5name;
