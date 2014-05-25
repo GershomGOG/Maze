@@ -110,7 +110,7 @@ var room97adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room98adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room99adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room100adj=rAdj[Math.floor(Math.random() * rAdj.length)];
-
+console.info('adj');
 
 var room2type=rType[Math.floor(Math.random() * rType.length)];
 var room3type=rType[Math.floor(Math.random() * rType.length)];
@@ -211,7 +211,7 @@ var room97type=rType[Math.floor(Math.random() * rType.length)];
 var room98type=rType[Math.floor(Math.random() * rType.length)];
 var room99type=rType[Math.floor(Math.random() * rType.length)];
 var room100type=rType[Math.floor(Math.random() * rType.length)];
-
+console.info('type'); 
 
 
 /*
@@ -317,7 +317,7 @@ var room97name=room97adj + " " + room97type;
 var room98name=room98adj + " " + room98type;
 var room99name=room99adj + " " + room99type;
 var room100name=room100adj + " " + room100type;
-
+console.info('name'); 
 
 
 
@@ -424,7 +424,7 @@ var room97desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room98desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room99desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room100desc=rDesc[Math.floor(Math.random() * rDesc.length)];
-console.error('Names and such done'); 
+console.info('desc'); 
 
 /*
 This inserts the relevant text throughout the maze
@@ -533,7 +533,7 @@ document.getElementById("room97text").innerHTML="<h1>The " + room97name + "</h1>
 document.getElementById("room98text").innerHTML="<h1>The " + room98name + "</h1>" + room98desc;
 document.getElementById("room99text").innerHTML="<h1>The " + room99name + "</h1>" + room99desc;
 document.getElementById("room100text").innerHTML="<h1>The " + room100name + "</h1>" + room100desc;
-console.error('room text filled'); 
+console.info('room text'); 
 
 /*
 These are the links
@@ -639,7 +639,7 @@ document.getElementByClassName("room97link")[0].innerHTML=room97name;
 document.getElementByClassName("room98link")[0].innerHTML=room98name;
 document.getElementByClassName("room99link")[0].innerHTML=room99name;
 document.getElementByClassName("room100link")[0].innerHTML=room100name;
-
+console.info('room links'); 
 }
 
 function doorWay(x,y)
@@ -647,4 +647,5 @@ function doorWay(x,y)
 
 
 document.getElementById(x).style.display = 'block'; document.getElementById(y).style.display = 'none' ;
+console.info('door used'); 
 }
