@@ -10,7 +10,7 @@ The words for the rooms are in another file now.
 /*
 These assign room type and adj to each room
 */
-var room1adj=rAdj[Math.floor(Math.random() * rAdj.length)];
+
 var room2adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room3adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room4adj=rAdj[Math.floor(Math.random() * rAdj.length)];
@@ -111,7 +111,7 @@ var room98adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room99adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 var room100adj=rAdj[Math.floor(Math.random() * rAdj.length)];
 
-var room1type=rType[Math.floor(Math.random() * rType.length)];
+
 var room2type=rType[Math.floor(Math.random() * rType.length)];
 var room3type=rType[Math.floor(Math.random() * rType.length)];
 var room4type=rType[Math.floor(Math.random() * rType.length)];
@@ -217,7 +217,7 @@ var room100type=rType[Math.floor(Math.random() * rType.length)];
 /*
 This puts them together
 */
-var room1name=room1adj + " " + room1type;
+
 var room2name=room2adj + " " + room2type;
 var room3name=room3adj + " " + room3type;
 var room4name=room4adj + " " + room4type;
@@ -327,7 +327,7 @@ This inserts the relevant text throughout the maze
 /*
 This is the room text
 */
-var room1desc=rDesc[Math.floor(Math.random() * rDesc.length)];
+
 var room2desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room3desc=rDesc[Math.floor(Math.random() * rDesc.length)];
 var room4desc=rDesc[Math.floor(Math.random() * rDesc.length)];
