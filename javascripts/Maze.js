@@ -1,5 +1,12 @@
 // JavaScript Document
 
+
+
+
+
+function makeRooms()
+{
+
 function ReplaceContentInContainer(SnarF, FranS) {
   var nodeList = document.getElementsByClassName(SnarF);console.info(nodeList[0]);
   for (var i = 0, length = nodeList.length; i < length; i++) {
@@ -8,9 +15,6 @@ function ReplaceContentInContainer(SnarF, FranS) {
 }
 
 
-
-function makeRooms()
-{
 /*
 The words for the rooms are in another file now.
 */
