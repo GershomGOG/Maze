@@ -14,6 +14,14 @@ function ReplaceContentInContainer(SnarF, FranS) {
   }
 }
 
+function AddClassInContainer(BlarT, Tralb) {
+  var nodeList = document.getElementsByClassName(BlarT);console.info(nodeList[0]);
+  for (var i = 0, length = nodeList.length; i < length; i++) {
+     nodeList[i].classList.add(Tralb);
+  }
+}
+
+
 
 /*
 The words for the rooms are in another file now.
@@ -332,6 +340,110 @@ var room100name=room100adj + " " + room100type;
 console.info('name'); 
 
 
+/*
+This is where the door img is assigned
+*/
+
+var room2door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room3door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room4door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room5door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room6door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room7door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room8door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room9door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room10door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room11door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room12door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room13door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room14door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room15door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room16door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room17door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room18door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room19door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room20door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room21door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room22door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room23door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room24door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room25door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room26door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room27door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room28door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room29door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room30door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room31door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room32door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room33door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room34door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room35door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room36door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room37door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room38door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room39door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room40door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room41door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room42door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room43door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room44door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room45door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room46door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room47door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room48door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room49door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room50door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room51door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room52door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room53door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room54door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room55door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room56door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room57door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room58door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room59door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room60door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room61door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room62door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room63door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room64door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room65door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room66door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room67door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room68door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room69door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room70door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room71door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room72door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room73door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room74door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room75door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room76door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room77door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room78door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room79door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room80door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room81door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room82door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room83door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room84door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room85door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room86door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room87door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room88door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room89door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room90door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room91door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room92door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room93door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room94door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room95door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room96door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room97door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room98door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room99door=rDoor[Math.floor(Math.random() * rDoor.length)];
+var room100door=rDoor[Math.floor(Math.random() * rDoor.length)];
+console.info('door'); 
 
 /*
 This is the room text
@@ -651,6 +763,111 @@ ReplaceContentInContainer('room98link', room98name)
 ReplaceContentInContainer('room99link', room99name)
 ReplaceContentInContainer('room100link', room100name)
 console.info('room links'); 
+
+AddClassInContainer('room1link', room1door)
+AddClassInContainer('room2link', room2door)
+AddClassInContainer('room3link', room3door)
+AddClassInContainer('room4link', room4door)
+AddClassInContainer('room5link', room5door)
+AddClassInContainer('room6link', room6door)
+AddClassInContainer('room7link', room7door)
+AddClassInContainer('room8link', room8door)
+AddClassInContainer('room9link', room9door)
+AddClassInContainer('room10link', room10door)
+AddClassInContainer('room11link', room11door)
+AddClassInContainer('room12link', room12door)
+AddClassInContainer('room13link', room13door)
+AddClassInContainer('room14link', room14door)
+AddClassInContainer('room15link', room15door)
+AddClassInContainer('room16link', room16door)
+AddClassInContainer('room17link', room17door)
+AddClassInContainer('room18link', room18door)
+AddClassInContainer('room19link', room19door)
+AddClassInContainer('room20link', room20door)
+AddClassInContainer('room21link', room21door)
+AddClassInContainer('room22link', room22door)
+AddClassInContainer('room23link', room23door)
+AddClassInContainer('room24link', room24door)
+AddClassInContainer('room25link', room25door)
+AddClassInContainer('room26link', room26door)
+AddClassInContainer('room27link', room27door)
+AddClassInContainer('room28link', room28door)
+AddClassInContainer('room29link', room29door)
+AddClassInContainer('room30link', room30door)
+AddClassInContainer('room31link', room31door)
+AddClassInContainer('room32link', room32door)
+AddClassInContainer('room33link', room33door)
+AddClassInContainer('room34link', room34door)
+AddClassInContainer('room35link', room35door)
+AddClassInContainer('room36link', room36door)
+AddClassInContainer('room37link', room37door)
+AddClassInContainer('room38link', room38door)
+AddClassInContainer('room39link', room39door)
+AddClassInContainer('room40link', room40door)
+AddClassInContainer('room41link', room41door)
+AddClassInContainer('room42link', room42door)
+AddClassInContainer('room43link', room43door)
+AddClassInContainer('room44link', room44door)
+AddClassInContainer('room45link', room45door)
+AddClassInContainer('room46link', room46door)
+AddClassInContainer('room47link', room47door)
+AddClassInContainer('room48link', room48door)
+AddClassInContainer('room49link', room49door)
+AddClassInContainer('room50link', room50door)
+AddClassInContainer('room51link', room51door)
+AddClassInContainer('room52link', room52door)
+AddClassInContainer('room53link', room53door)
+AddClassInContainer('room54link', room54door)
+AddClassInContainer('room55link', room55door)
+AddClassInContainer('room56link', room56door)
+AddClassInContainer('room57link', room57door)
+AddClassInContainer('room58link', room58door)
+AddClassInContainer('room59link', room59door)
+AddClassInContainer('room60link', room60door)
+AddClassInContainer('room61link', room61door)
+AddClassInContainer('room62link', room62door)
+AddClassInContainer('room63link', room63door)
+AddClassInContainer('room64link', room64door)
+AddClassInContainer('room65link', room65door)
+AddClassInContainer('room66link', room66door)
+AddClassInContainer('room67link', room67door)
+AddClassInContainer('room68link', room68door)
+AddClassInContainer('room69link', room69door)
+AddClassInContainer('room70link', room70door)
+AddClassInContainer('room71link', room71door)
+AddClassInContainer('room72link', room72door)
+AddClassInContainer('room73link', room73door)
+AddClassInContainer('room74link', room74door)
+AddClassInContainer('room75link', room75door)
+AddClassInContainer('room76link', room76door)
+AddClassInContainer('room77link', room77door)
+AddClassInContainer('room78link', room78door)
+AddClassInContainer('room79link', room79door)
+AddClassInContainer('room80link', room80door)
+AddClassInContainer('room81link', room81door)
+AddClassInContainer('room82link', room82door)
+AddClassInContainer('room83link', room83door)
+AddClassInContainer('room84link', room84door)
+AddClassInContainer('room85link', room85door)
+AddClassInContainer('room86link', room86door)
+AddClassInContainer('room87link', room87door)
+AddClassInContainer('room88link', room88door)
+AddClassInContainer('room89link', room89door)
+AddClassInContainer('room90link', room90door)
+AddClassInContainer('room91link', room91door)
+AddClassInContainer('room92link', room92door)
+AddClassInContainer('room93link', room93door)
+AddClassInContainer('room94link', room94door)
+AddClassInContainer('room95link', room95door)
+AddClassInContainer('room96link', room96door)
+AddClassInContainer('room97link', room97door)
+AddClassInContainer('room98link', room98door)
+AddClassInContainer('room99link', room99door)
+AddClassInContainer('room100link', room100door)
+console.info('doors in place'); 
+
+
+
 }
 
 function doorWay(x,y)
