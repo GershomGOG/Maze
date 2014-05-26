@@ -551,7 +551,7 @@ console.info('room text');
 These are the links
 */
 
-ReplaceContentInContainer(room2link, room2name)
+ReplaceContentInContainer('room2link', room2name)
 /*document.getElementsByClassName("room2link")[0].innerHTML=room2name;*/
 console.info('one link'); 
 document.getElementsByClassName("room3link")[0].innerHTML=room3name;
