@@ -764,7 +764,7 @@ ReplaceContentInContainer('room99link', room99name)
 ReplaceContentInContainer('room100link', room100name)
 console.info('room links'); 
 
-AddClassInContainer('room1link', room1door)
+
 AddClassInContainer('room2link', room2door)
 AddClassInContainer('room3link', room3door)
 AddClassInContainer('room4link', room4door)
