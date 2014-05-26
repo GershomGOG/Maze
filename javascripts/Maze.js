@@ -17,7 +17,8 @@ function ReplaceContentInContainer(SnarF, FranS) {
 function AddClassInContainer(BlarT, Tralb) {
   var nodeList = document.getElementsByClassName(BlarT);console.info(nodeList[0]);
   for (var i = 0, length = nodeList.length; i < length; i++) {
-     nodeList[i].classList.add(Tralb);
+     nodeList[i].className = nodeList[i].className + Tralb;
+     
   }
 }
 
