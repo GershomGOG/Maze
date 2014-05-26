@@ -8,14 +8,14 @@ function makeRooms()
 {
 
 function ReplaceContentInContainer(SnarF, FranS) {
-  var nodeList = document.getElementsByClassName(SnarF);console.info(nodeList[0]);
+  var nodeList = document.getElementsByClassName(SnarF);//console.info(nodeList[0]);
   for (var i = 0, length = nodeList.length; i < length; i++) {
      nodeList[i].innerHTML = FranS;
   }
 }
 
 function AddClassInContainer(BlarT, Tralb) {
-  var nodeList = document.getElementsByClassName(BlarT);console.info(nodeList[0]);
+  var nodeList = document.getElementsByClassName(BlarT);//console.info(nodeList[0]);
   for (var i = 0, length = nodeList.length; i < length; i++) {
      nodeList[i].className = nodeList[i].className + Tralb;
      
@@ -607,7 +607,7 @@ document.getElementById("room46text").innerHTML="<h1>The " + room46name + "</h1>
 document.getElementById("room47text").innerHTML="<h1>The " + room47name + "</h1>" + room47desc;
 document.getElementById("room48text").innerHTML="<h1>The " + room48name + "</h1>" + room48desc;
 document.getElementById("room49text").innerHTML="<h1>The " + room49name + "</h1>" + room49desc;
-document.getElementById("room50text").innerHTML="<h1>The " + room50name + "</h1>" + room50desc;console.info('50');
+document.getElementById("room50text").innerHTML="<h1>The " + room50name + "</h1>" + room50desc;//console.info('50');
 document.getElementById("room51text").innerHTML="<h1>The " + room51name + "</h1>" + room51desc;
 document.getElementById("room52text").innerHTML="<h1>The " + room52name + "</h1>" + room52desc;
 document.getElementById("room53text").innerHTML="<h1>The " + room53name + "</h1>" + room53desc;
@@ -617,42 +617,42 @@ document.getElementById("room56text").innerHTML="<h1>The " + room56name + "</h1>
 document.getElementById("room57text").innerHTML="<h1>The " + room57name + "</h1>" + room57desc;
 document.getElementById("room58text").innerHTML="<h1>The " + room58name + "</h1>" + room58desc;
 document.getElementById("room59text").innerHTML="<h1>The " + room59name + "</h1>" + room59desc;
-document.getElementById("room60text").innerHTML="<h1>The " + room60name + "</h1>" + room60desc;console.info('60');
-document.getElementById("room61text").innerHTML="<h1>The " + room61name + "</h1>" + room61desc;console.info('61');
-document.getElementById("room62text").innerHTML="<h1>The " + room62name + "</h1>" + room62desc;console.info('62');
-document.getElementById("room63text").innerHTML="<h1>The " + room63name + "</h1>" + room63desc;console.info('63');
-document.getElementById("room64text").innerHTML="<h1>The " + room64name + "</h1>" + room64desc;console.info('64');
-document.getElementById("room65text").innerHTML="<h1>The " + room65name + "</h1>" + room65desc;console.info('65');
+document.getElementById("room60text").innerHTML="<h1>The " + room60name + "</h1>" + room60desc;//console.info('60');
+document.getElementById("room61text").innerHTML="<h1>The " + room61name + "</h1>" + room61desc;//console.info('61');
+document.getElementById("room62text").innerHTML="<h1>The " + room62name + "</h1>" + room62desc;//console.info('62');
+document.getElementById("room63text").innerHTML="<h1>The " + room63name + "</h1>" + room63desc;//console.info('63');
+document.getElementById("room64text").innerHTML="<h1>The " + room64name + "</h1>" + room64desc;//console.info('64');
+document.getElementById("room65text").innerHTML="<h1>The " + room65name + "</h1>" + room65desc;//console.info('65');
 document.getElementById("room66text").innerHTML="<h1>The " + room66name + "</h1>" + room66desc;
 document.getElementById("room67text").innerHTML="<h1>The " + room67name + "</h1>" + room67desc;
 document.getElementById("room68text").innerHTML="<h1>The " + room68name + "</h1>" + room68desc;
 document.getElementById("room69text").innerHTML="<h1>The " + room69name + "</h1>" + room69desc;
-document.getElementById("room70text").innerHTML="<h1>The " + room70name + "</h1>" + room70desc;console.info('70');
+document.getElementById("room70text").innerHTML="<h1>The " + room70name + "</h1>" + room70desc;//console.info('70');
 document.getElementById("room71text").innerHTML="<h1>The " + room71name + "</h1>" + room71desc;
 document.getElementById("room72text").innerHTML="<h1>The " + room72name + "</h1>" + room72desc;
 document.getElementById("room73text").innerHTML="<h1>The " + room73name + "</h1>" + room73desc;
 document.getElementById("room74text").innerHTML="<h1>The " + room74name + "</h1>" + room74desc;
-document.getElementById("room75text").innerHTML="<h1>The " + room75name + "</h1>" + room75desc;console.info('75');
+document.getElementById("room75text").innerHTML="<h1>The " + room75name + "</h1>" + room75desc;//console.info('75');
 document.getElementById("room76text").innerHTML="<h1>The " + room76name + "</h1>" + room76desc;
 document.getElementById("room77text").innerHTML="<h1>The " + room77name + "</h1>" + room77desc;
 document.getElementById("room78text").innerHTML="<h1>The " + room78name + "</h1>" + room78desc;
 document.getElementById("room79text").innerHTML="<h1>The " + room79name + "</h1>" + room79desc;
-document.getElementById("room80text").innerHTML="<h1>The " + room80name + "</h1>" + room80desc;console.info('80');
+document.getElementById("room80text").innerHTML="<h1>The " + room80name + "</h1>" + room80desc;//console.info('80');
 document.getElementById("room81text").innerHTML="<h1>The " + room81name + "</h1>" + room81desc;
 document.getElementById("room82text").innerHTML="<h1>The " + room82name + "</h1>" + room82desc;
 document.getElementById("room83text").innerHTML="<h1>The " + room83name + "</h1>" + room83desc;
 document.getElementById("room84text").innerHTML="<h1>The " + room84name + "</h1>" + room84desc;
-document.getElementById("room85text").innerHTML="<h1>The " + room85name + "</h1>" + room85desc;console.info('85');
+document.getElementById("room85text").innerHTML="<h1>The " + room85name + "</h1>" + room85desc;//console.info('85');
 document.getElementById("room86text").innerHTML="<h1>The " + room86name + "</h1>" + room86desc;
 document.getElementById("room87text").innerHTML="<h1>The " + room87name + "</h1>" + room87desc;
 document.getElementById("room88text").innerHTML="<h1>The " + room88name + "</h1>" + room88desc;
 document.getElementById("room89text").innerHTML="<h1>The " + room89name + "</h1>" + room89desc;
-document.getElementById("room90text").innerHTML="<h1>The " + room90name + "</h1>" + room90desc;console.info('90');
+document.getElementById("room90text").innerHTML="<h1>The " + room90name + "</h1>" + room90desc;//console.info('90');
 document.getElementById("room91text").innerHTML="<h1>The " + room91name + "</h1>" + room91desc;
 document.getElementById("room92text").innerHTML="<h1>The " + room92name + "</h1>" + room92desc;
 document.getElementById("room93text").innerHTML="<h1>The " + room93name + "</h1>" + room93desc;
 document.getElementById("room94text").innerHTML="<h1>The " + room94name + "</h1>" + room94desc;
-document.getElementById("room95text").innerHTML="<h1>The " + room95name + "</h1>" + room95desc;console.info('95');
+document.getElementById("room95text").innerHTML="<h1>The " + room95name + "</h1>" + room95desc;//console.info('95');
 document.getElementById("room96text").innerHTML="<h1>The " + room96name + "</h1>" + room96desc;
 document.getElementById("room97text").innerHTML="<h1>The " + room97name + "</h1>" + room97desc;
 document.getElementById("room98text").innerHTML="<h1>The " + room98name + "</h1>" + room98desc;
