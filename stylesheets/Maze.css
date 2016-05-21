@@ -16,7 +16,7 @@ a.maze{
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(/images/door1.png) no-repeat scroll 0 40px transparent;
+        background:url(Images/door1.png) no-repeat scroll 0 40px transparent;
 
 
 }
