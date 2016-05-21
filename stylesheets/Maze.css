@@ -9,95 +9,95 @@ body {  font-family: 'Josefin Slab', serif;; font-weight: normal; color:#CCC; ba
 h1 {	color:#CCC;
 }
 
-a:link {text-decoration:none;} 
+a:link {text-decoration:none;}
 
-a.maze{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(http://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51be27c4e4b090c42fe4bfb2/1371416516640/door1.png) no-repeat scroll 0 40px transparent;
+        background:url(/images/door1.png) no-repeat scroll 0 40px transparent;
 
-  
+
 }
 
 
-a.maze1door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze1door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(http://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51be27c4e4b090c42fe4bfb2/1371416516640/door1.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images//door1.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze2door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze2door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f314e4b098110aee6935/1374876437397/door2.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door2.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze3door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze3door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f31be4b098110aee693b/1374876443904/door3.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door3.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze4door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze4door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f31fe4b00513cb656bef/1374876447894/door4.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door4.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze5door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze5door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f323e4b0072140023753/1374876452055/door5.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door5.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze6door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze6door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f327e4b0de090f7f2fc1/1374876455481/door6.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door6.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze7door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze7door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f32de4b083675bdf7b9d/1374876462059/door7.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door7.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze8door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze8door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f331e4b08b0bde08a48e/1374876465507/door8.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door8.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze9door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze9door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f337e4b03e25cfa5f16a/1374876472238/door9.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door9.png) no-repeat scroll 0 40px transparent;
 }
 
-a.maze10door{ 
-  		color:#fff; border:solid; border-color:#000; 
+a.maze10door{
+  		color:#fff; border:solid; border-color:#000;
 		padding-bottom:280px; padding-top:2px; padding-left:6px; padding-right:4px;
 		line-height:30px; font-weight:bold; top:0px; margin-right:13px; float:left; alignment-adjust:central; text-align:center;
 		cursor:pointer; display:block; width:190px; hight:180px;
-        background:url(https://static.squarespace.com/static/50189573e4b0807297e7eed5/51b7e626e4b048bc7c9cac8d/51f2f33be4b098110aee696e/1374876475336/door10.png) no-repeat scroll 0 40px transparent;  
+        background:url(/images/door10.png) no-repeat scroll 0 40px transparent;
 }
